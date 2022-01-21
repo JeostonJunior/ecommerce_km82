@@ -11,9 +11,7 @@ const Navbar = () => {
           <span className="Language">PT</span>
           <div className="SearchContainer">
             <input type="text" className="InputSearchContainer" />
-            <div className="Search">
-              <Search style={{color:"gray",fontSize:16}}/>
-            </div>
+            <Search style={{ color: "gray", fontSize: 16 }} />
           </div>
         </div>
         <div className="Center">

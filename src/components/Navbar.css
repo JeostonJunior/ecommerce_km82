@@ -35,14 +35,20 @@ import .NavBarContainer {
   display: flex;
   border: 1px solid lightgray;
   align-items: center;
+  margin-left: 5px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .InputSearchContainer {
-  border: none;
+  border-color: transparent;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 .Logo {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .MenuItem {
